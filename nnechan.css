@@ -1,0 +1,373 @@
+.NEECHAN
+{
+  position:relative;
+  top:60vh;
+  left :20vh;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  color: #ccc;
+  background-color:aliceblue;
+  margin-inline-end: 82%;
+}
+
+.sign
+{
+  font-weight: 10px;
+  font-size: 25px;
+  text-indent:20px;
+  font-family: "Gurajada", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+form
+{
+  height: 14px;;
+  width: 180px;
+  font-family: Arial;
+  color:black;
+  padding-right: 20%;
+  text-indent: 20px;
+}
+
+.account
+{
+  text-indent: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.underline
+{
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.underline:hover
+{
+  color: rgb(80, 80, 225);
+  text-decoration: underline;
+
+}
+
+.email
+{
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-left: 11%;
+  margin-top: 5px;
+  width: 211%;
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+  text-indent: 10px;
+}
+
+.box
+{
+  height: 560px;
+  width: 450px;
+  background-color: rgb(226, 226, 226);
+  margin-left: 120vh;
+  padding: 23px;
+  border-radius: 5px;
+  position: relative;
+  bottom:20px;
+  left: 2px;
+  box-shadow:1px 2px 3px rgb(135, 123, 123);
+}
+
+.button-login
+{
+  background-color: rgb(93, 93, 233);
+  color: white;
+  height: 35px;
+  width: 100px;
+  border-radius: 20px;
+  border-style: hidden;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 170%;
+  transition: 0.3s ease;
+}
+
+.button-login:hover
+{
+  background-color: rgb(64, 64, 169);
+  transition: 0.6s ease-in;
+}
+
+.hr
+{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-left: 20px;
+  position: relative;
+  top: 15px;
+}
+
+.Or-button
+{
+  position:relative;
+  left: 172px;
+  bottom: 22px;
+}
+
+.pr
+{
+  display: block;
+  height: 1px;
+  border: 0;;
+  border-top: 1px solid #ccc;
+  position: relative;
+  top: 4px;
+  left: 120%;
+}
+
+.google
+{
+  background-color:white;
+  color:black;
+  height: 50px;
+  width:400px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ccc;
+  cursor: pointer; 
+  position: relative;
+  bottom: 35px;
+  left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  box-shadow: #ccc;
+}
+
+.facebook
+{
+  background-color:white;
+  color:black;
+  height: 50px;
+  width:400px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ccc;
+  cursor: pointer; 
+  position: relative;
+  bottom: 35px;
+  left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 1px;
+}
+
+.hub
+{
+  background-color:white;
+  color:black;
+  height: 50px;
+  width:400px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ccc;
+  cursor: pointer; 
+  position: relative;
+  bottom: 35px;
+  left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 1px;
+}
+
+.google:hover
+{
+  background-color:rgb(235, 225, 225);
+  transition: 0.8s ease;
+}
+
+.facebook:hover
+{
+  background-color: rgb(219, 207, 207);
+  transition: 0.8s ease;
+}
+
+.hub:hover
+{
+  background-color: rgb(219, 207, 207);
+  transition: 0.8s ease;
+}
+
+.more
+{
+  text-decoration: none;
+  position: relative;
+  left: 160px;
+  bottom: 8px;
+  color: rgb(63, 63, 233);
+}
+
+.more:hover
+{
+  text-decoration: underline;
+  transition: 0.3s ease-in;
+}
+
+.last-footer
+{
+  border-width: 2px;
+  height: 0px;
+  border-color: black;
+  display: flex;  
+  position: relative;
+  top: 20px;
+  padding-bottom: 10px;
+  scroll-padding-left: 2px;
+  margin-top: 8px;
+  text-align:left;
+  text-indent: 8px;
+}
+
+.foot
+{
+  margin-left: 6px;
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s ease;
+  
+}
+
+.foot:hover
+{
+  text-decoration: underline;
+  color: rgb(131, 131, 173);
+}
+
+.a
+{
+  color: #ccc;
+  height: 15px;
+  width: 0px;
+  position: relative;
+  
+  bottom: 25px;
+  left: 32px;
+  border-color: none;
+  border-style: solid;
+}
+
+.b{
+  color: #ccc;
+  height: 15px;
+  width: 0px;
+  position: relative;
+  bottom: 50px;
+  left: 91px;
+  border-color: none;
+  border-style: solid;
+}
+
+.c{
+  color: #ccc;
+  height: 15px;
+  width: 0px;
+  position: relative;
+  bottom: 74px;
+  left: 185px;
+  border-color: none;
+  border-style: solid;
+}
+
+ body
+ {
+  background-image: url("backg.jpg");
+ }
+
+ img
+ {
+  position: relative;
+  bottom:70px;
+  left: 120px ;
+  height: 19px;
+
+ }
+
+ @media screen and (max-width: 600px) {
+  .NEECHAN {
+    font-size: 16px; /* Smaller text for mobile */
+    left: 5vw; /* Adjust positioning */
+    top: 50vh; /* Adjust vertical positioning */
+    margin-inline-end: 0; /* Remove right margin */
+  }
+
+  .sign {
+    font-size: 20px; /* Adjusted font size */
+    text-indent: 20px; /* Remove text indent for better spacing */
+  }
+
+  form {
+    width: 100%; /* Full width for forms */
+    padding-right: 0; /* Remove right padding */
+  }
+
+  .account {
+    text-indent: 20px; /* Remove text indent */
+  }
+
+  .email {
+    width:90%; /* Full-width email input */
+    margin: 5px 2px; /* Adjust margins */
+    margin-left: 20px;
+    
+  }
+
+  .box {
+    width: 90%; /* Make the box responsive */
+    height: 90%; /* Allow height to adjust */
+    margin: 20px auto; /* Center the box */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .button-login,
+  .google,
+  .facebook,
+  .hub {
+    width: 90%; /* Full-width buttons */
+    height: 45px; /* Adjust button height */
+    margin-top: 10px; /* Space between buttons */
+  }
+
+  img {
+    height: 24px; /* Maintain aspect ratio */
+    max-width: 9%; /* Responsive image */
+    left: 0px; /* Center the image */
+    bottom: 10x; /* Adjust image position */
+    position: relative;
+    ;
+  }
+
+  .last-footer {
+    flex-direction: column; /* Stack footer items vertically */
+    text-align: justify; /* Center align footer text */
+  }
+
+  .more {
+    left: 30%; /* Center "more" link on mobile */
+  }
+
+  body {
+    background-image: url("backg.jpg"); /* Keep the background image */
+    max-width: 100%;
+    max-height: 90%;
+  }
+  .Or-button {
+    width: 80%; /* Give it a bit more width for easier tapping */
+    position: relative;
+    left: 140px;
+  }
+}
