@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&family=Signika+Negative:wght@300..700&family=Signika:wght@300..700&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: signika;
+}
+
+.NEECHAN
+{
+  position:relative;
+  top:60vh;
+  left :20vh;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: normal;
+  color: #ccc;
+  background-color:aliceblue;
+  margin-inline-end: 82%;
+}
+
+.sign
+{
+  font-weight: 10px;
+  font-size: 25px;
+  text-indent:20px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+form
+{
+  color:black;
+  width: 90%;
+}
+
+.input_form{
+  margin: auto;
+}
+
+.account
+{
+  text-indent: 20px;
+  margin-bottom: 20px;
+}
+
+.underline
+{
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.underline:hover
+{
+  color: rgb(80, 80, 225);
+  text-decoration: underline;
+}
+
+.email
+{
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 5px;
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+}
+
+.email_container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.box
+{
+  height: 560px;
+  width: 450px;
+  background-color: rgb(226, 226, 226);
+  margin-left: auto;
+  margin-right: 100px;
+  padding: 23px;
+  border-radius: 5px;
+  position: relative;
+  bottom:20px;
+  left: 2px;
+  box-shadow:1px 2px 3px rgb(135, 123, 123);
+}
+
+.button-login
+{
+  background-color: rgb(93, 93, 233);
+  color: white;
+  height: 35px;
+  width: 100px;
+  border-radius: 20px;
+  border-style: hidden;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left:auto;
+  transition: 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-login:hover
+{
+  background-color: rgb(64, 64, 169);
+  transition: 0.6s ease-in;
+}
+
+.Or_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.hr
+{
+  width: 50%;
+  /* display: block; */
+  /* height: 1px;
+  border: 0;
+  border-top: 1px solid #000000; */
+  /* margin-left: 20px; */
+  /* position: absolute; */
+  /* top: 15px; */
+}
+
+.pr
+{
+  width: 50%;
+  /* display: block;
+  height: 1px;
+  border: 0;;
+  border-top: 1px solid #ccc;
+  position: relative;
+  top: 4px;
+  left: 120%; */
+}
+.relative{
+  position: relative;
+}
+
+.google
+{
+  background-color:white;
+  color:black;
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ccc;
+  cursor: pointer; 
+  position: relative;
+  bottom: 35px;
+  font-weight: bold;
+  box-shadow: #ccc;
+}
+
+.facebook
+{
+  background-color:white;
+  color:black;
+  height: 50px;
+  width:100%;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ccc;
+  cursor: pointer; 
+  position: relative;
+  bottom: 35px;
+  font-weight: bold;
+  margin-top: 1px;
+}
+
+.hub
+{
+  background-color:white;
+  color:black;
+  height: 50px;
+  width:100%;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ccc;
+  cursor: pointer; 
+  position: relative;
+  bottom: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 1px;
+}
+
+.google:hover
+{
+  background-color:rgb(235, 225, 225);
+  transition: 0.8s ease;
+}
+
+.facebook:hover
+{
+  background-color: rgb(219, 207, 207);
+  transition: 0.8s ease;
+}
+
+.hub:hover
+{
+  background-color: rgb(219, 207, 207);
+  transition: 0.8s ease;
+}
+
+.more
+{
+  text-decoration: none;
+  position: absolute;
+  left: 158px;
+  bottom: 6px;
+  color: rgb(63, 63, 233);
+}
+
+.more:hover
+{
+  text-decoration: underline;
+  transition: 0.3s ease-in;
+}
+
+.help
+{
+  text-decoration: none;
+  position: absolute;
+  left: 2px;
+  top: 80px;
+  color: rgb(63,63,233);
+}
+
+.help:hover
+{
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.last-footer
+{
+  border-width: 2px;
+  border-color: black;
+  top: 20px;
+  text-align:center;
+  margin: 10px 0px;
+}
+
+.center{
+  text-align: center;
+}
+
+.foot
+{
+  margin-left: 6px;
+  text-decoration: none;
+  color: #949292;
+  transition: 0.3s ease;
+  margin-right: 6px;  
+}
+
+.foot:hover
+{
+  text-decoration: underline;
+  color: rgb(63, 63, 233);
+}
+
+.login_redirect{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container 
+ {
+  background-image: url("backg.jpg");
+ }
+
+img
+ {
+  position: absolute;
+  top: -18px;
+  left: 85px;
+  height: 19px;
+
+ }
+
+ @media screen and (max-width: 600px) {
+  .NEECHAN {
+    font-size: 16px; /* Smaller text for mobile */
+    left: 5vw; /* Adjust positioning */
+    top: 50vh; /* Adjust vertical positioning */
+    margin-inline-end: 0; /* Remove right margin */
+  }
+
+  .sign {
+    font-size: 20px; /* Adjusted font size */
+    text-indent: 20px; /* Remove text indent for better spacing */
+  }
+
+  form {
+    width: 100%; /* Full width for forms */
+    padding-right: 0; /* Remove right padding */
+  }
+
+  .account {
+    text-indent: 20px; /* Remove text indent */
+  }
+
+  .email {
+    width:90%; /* Full-width email input */
+    margin: 5px 2px; /* Adjust margins */
+    margin-left: 20px;
+    
+  }
+
+  .box {
+    width: 90%; /* Make the box responsive */
+    height: 90%; /* Allow height to adjust */
+    margin: 20px auto; /* Center the box */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .button-login,
+  .google,
+  .facebook,
+  .hub {
+    width: 90%; /* Full-width buttons */
+    height: 45px; /* Adjust button height */
+    margin-top: 10px; /* Space between buttons */
+  }
+
+  img {
+    height: 24px; /* Maintain aspect ratio */
+    max-width: 9%; /* Responsive image */
+    left: 0px; /* Center the image */
+    bottom: 10x; /* Adjust image position */
+    position: relative;
+    ;
+  }
+
+  .last-footer {
+    flex-direction: column; /* Stack footer items vertically */
+    text-align: justify; /* Center align footer text */
+  }
+
+  .more {
+    left: 30%; /* Center "more" link on mobile */
+  }
+
+  body {
+    background-image: url("backg.jpg"); /* Keep the background image */
+    max-width: 100%;
+    max-height: 90%;
+  }
+  .Or-button {
+    width: 80%; /* Give it a bit more width for easier tapping */
+    position: relative;
+    left: 140px;
+  }
+}
